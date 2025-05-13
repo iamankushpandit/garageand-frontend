@@ -22,5 +22,6 @@ declare module 'vue-router/auto-routes' {
     '/garage/[id]': RouteRecordInfo<'/garage/[id]', '/garage/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     '/host/[garageId]': RouteRecordInfo<'/host/[garageId]', '/host/:garageId', { garageId: ParamValue<true> }, { garageId: ParamValue<false> }>,
     '/join/[token]': RouteRecordInfo<'/join/[token]', '/join/:token', { token: ParamValue<true> }, { token: ParamValue<false> }>,
+    '/ticket/[ticketId]': RouteRecordInfo<'/ticket/[ticketId]', '/ticket/:ticketId', { ticketId: ParamValue<true> }, { ticketId: ParamValue<false> }>,
   }
 }
