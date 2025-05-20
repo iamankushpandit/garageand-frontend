@@ -10,6 +10,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
+    "@clerk/clerk-js": "^5.67.1",
     "@fontsource/roboto": "5.2.5",
     "@mdi/font": "7.4.47",
     "qrcode": "^1.5.4",

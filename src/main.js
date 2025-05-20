@@ -6,6 +6,8 @@
 
 // Plugins
 import { registerPlugins } from '@/plugins'
+import { ClerkPlugin } from '@clerk/clerk-vue'
+
 
 // Components
 import App from './App.vue'
